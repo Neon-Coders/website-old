@@ -84,12 +84,12 @@ export default function About() {
                   padding={5}
                   color={colors[1]}
                 >
-                  <a
+                  <Link
                     href="/writing"
                     className="font-medium text-gray-700 transition-colors hover:text-gray-900 focus:text-gray-900 focus:outline-none"
                   >
                     archive,
-                  </a>
+                  </Link>
                 </RoughNotation>{" "}
                 for as long as I manage to keep it up 😅. I also occasionally{" "}
                 <RoughNotation
@@ -102,12 +102,12 @@ export default function About() {
                   padding={5}
                   color={colors[4]}
                 >
-                  <a
+                  <Link
                     href="https://dev.to/ibrahimraimi"
                     className="font-medium text-gray-700 transition-colors hover:text-gray-900 focus:text-gray-900 focus:outline-none"
                   >
                     blog
-                  </a>
+                  </Link>
                 </RoughNotation>{" "}
                 about tech things that I've learnt or enjoyed, though the
                 frequency of posts has really decreased lately.
