@@ -35,7 +35,7 @@ export default function Home() {
         additionalLinkTags={[
           {
             rel: "icon",
-            href: "/favicon.ico",
+            href: "./favicon.ico",
           },
         ]}
         additionalMetaTags={[
